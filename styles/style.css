@@ -1,0 +1,154 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-left: auto;
+	margin-right: 8px;
+	font-size: 13px;
+}
+
+nav a {
+	color: #000;
+}
+
+nav > * {
+	margin: auto 10px;
+}
+
+.more-apps {
+	width: 25px;
+	height: auto;
+}
+
+.profile-image {
+	border-radius: 50%;
+}
+
+main {
+	margin: 175px auto auto;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+form {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	width: 550px;
+	height: 30px;
+	border: solid 1px #dfe1e5;
+	border-radius: 20px;
+	outline: none;
+	padding: 6px 20px 6px 10px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.input:hover {
+	box-shadow: 0px 2px 4px #d0d0d0;
+}
+
+.search-icon {
+	width: 21px;
+	height: auto;
+	margin-right: 5px;
+}
+
+input {
+	width: 550px;
+	height: 30px;
+	border: none;
+	outline: none;
+}
+
+.search-buttons {
+	margin-top: 23px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+button {
+	margin: auto 7px;
+	border: none;
+	padding: 10px 12px;
+	border-radius: 3px;
+	color: #3c4043;
+	font-family: arial, sans-serif;
+	border: solid 1px transparent;
+}
+
+button:hover {
+	background-color: #F7F7F7;
+	border: solid 1px #d1d1d1;
+}
+
+#another-lang {
+	margin-bottom: 30px;
+	font-size: 13px;
+	margin-bottom: 150px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	color: #70757a;
+	background-color: #f2f2f2;
+	font-size: 14px;
+}
+
+.footer-top {
+	height: 50px;
+	align-items: center;
+	line-height: 50px;
+	margin-left: 25px;
+}
+
+.footer-bottom {
+	height: 50px;
+	margin-top: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: solid 1px #E0E2E5;
+}
+
+.footer-bottom a {
+	color: #70757a;
+}
+
+.footer-left {
+	margin-left: 15px;
+}
+
+.footer-right {
+	margin-right: 15px;
+}
+
+.footer-left > * {
+	margin: auto 15px;
+}
+
+.footer-right > * {
+	margin: auto 15px;
+}
