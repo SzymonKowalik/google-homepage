@@ -1,0 +1,1 @@
+Finally, after hours of reading I can start first project at The Odin Project curriculum. It'll be a great opportunity to practice git workflow as well as CSS. 
